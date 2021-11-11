@@ -1,5 +1,7 @@
 Python
 
+Másodfokú egyenlet.
+
 print("Van-e megoldasa a masodfoku egyenletnek?")
 
 a = int(input("kérem az a együtthatot:"))
