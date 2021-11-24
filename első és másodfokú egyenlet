@@ -1,0 +1,19 @@
+# ax + b = 0
+# ax2 + bx + c = 0
+import math
+print ("(1) Elsőfokú egyenlet megoldása")
+print ("(2) Másodfokú egyenlet megoldása")
+m = int (input ("Választás:"))
+if m != 3 :
+    a = float (input ("első paraméter (a)?:"))
+    b = float (input ("második paraméter(b)?:"))
+    if m == 1 :
+        x = -b/a
+        print("Az elsőfokú egyenlet megoldása:", x )
+    else :
+            c = float (input ("Harmadik paraméter(c)?:"))
+            x1 = (-b + math.sqrt( b*b - 4 * a * c ) ) / (2 * a)
+            x2 = (-b - math.sqrt( b*b - 4 * a * c ) ) / (2 * a)
+            print("Az másodfokú egyenlet megoldása x1: ", x1 )
+            print("Az másodfokú egyenlet megoldása x2: ", x2 )
+
